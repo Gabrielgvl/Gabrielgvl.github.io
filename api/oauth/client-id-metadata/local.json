@@ -1,0 +1,23 @@
+{
+  "client_id": "https://gabrielgvl.github.io/api/oauth/client-id-metadata/local.json",
+  "client_name": "Executor",
+  "client_uri": "https://executor.sh",
+  "redirect_uris": [
+    "http://127.0.0.1/api/oauth/callback",
+    "http://localhost/api/oauth/callback",
+    "http://[::1]/api/oauth/callback",
+    "http://127.0.0.1:4788/api/oauth/callback",
+    "http://localhost:4788/api/oauth/callback",
+    "http://[::1]:4788/api/oauth/callback",
+    "https://dev-server.piranha-palermo.ts.net/api/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "application_type": "native"
+}
